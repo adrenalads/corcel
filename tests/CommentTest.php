@@ -1,6 +1,6 @@
 <?php
 
-use AdrenaladsCorcel\Comment;
+use Adrenalads\Corcel\Comment;
 
 class CommentTest extends PHPUnit_Framework_TestCase
 {

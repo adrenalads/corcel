@@ -1,7 +1,7 @@
 <?php
 
-use AdrenaladsCorcel\Post;
-use AdrenaladsCorcel\Page;
+use Adrenalads\Corcel\Post;
+use Adrenalads\Corcel\Page;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 
 class PostTest extends PHPUnit_Framework_TestCase

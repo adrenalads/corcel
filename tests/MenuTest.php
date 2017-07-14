@@ -1,6 +1,6 @@
 <?php
 
-use AdrenaladsCorcel\Menu;
+use Adrenalads\Corcel\Menu;
 
 class MenuTest extends PHPUnit_Framework_TestCase
 {

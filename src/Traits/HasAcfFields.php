@@ -1,5 +1,5 @@
 <?php
-namespace Corcel\Traits;
+namespace Adrenalads\Corcel\Traits;
 
 use Adrenalads\Corcel\Acf\AdvancedCustomFields;
 

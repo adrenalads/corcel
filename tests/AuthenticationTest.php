@@ -1,6 +1,6 @@
 <?php
 
-use AdrenaladsCorcel\User;
+use Adrenalads\Corcel\User;
 use AdrenaladsCorcel\Providers\AuthUserProvider;
 use AdrenaladsCorcel\Password\PasswordService;
 

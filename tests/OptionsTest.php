@@ -1,6 +1,6 @@
 <?php
 
-use AdrenaladsCorcel\Options;
+use Adrenalads\Corcel\Options;
 
 class OptionsTest extends PHPUnit_Framework_TestCase
 {
