@@ -8,7 +8,7 @@
 
 namespace Adrenalads\Corcel;
 
-use Adrenalad\sCorcel\Traits\CreatedAtTrait;
+use Adrenalads\Corcel\Traits\CreatedAtTrait;
 use Adrenalads\Corcel\Traits\HasAcfFields;
 use Adrenalads\Corcel\Traits\UpdatedAtTrait;
 use Thunder\Shortcode\ShortcodeFacade;
