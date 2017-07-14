@@ -8,8 +8,8 @@
 
 namespace Adrenalads\Corcel;
 
-use Corcel\Traits\CreatedAtTrait;
-use Corcel\Traits\UpdatedAtTrait;
+use Adrenalads\Corcel\Traits\CreatedAtTrait;
+use Adrenalads\Corcel\Traits\UpdatedAtTrait;
 
 class Comment extends Model
 {

@@ -1,7 +1,7 @@
 <?php
 
-use Corcel\Post;
-use Corcel\PostMeta;
+use AdrenaladsCorcel\Post;
+use AdrenaladsCorcel\PostMeta;
 
 class PostMetaTest extends PHPUnit_Framework_TestCase
 {

@@ -2,7 +2,7 @@
 
 namespace Adrenalads\Corcel\Auth;
 
-use Corcel\Password\PasswordService;
+use Adrenalads\Corcel\Password\PasswordService;
 use Auth;
 
 trait ResetsPasswords

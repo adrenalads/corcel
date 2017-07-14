@@ -11,9 +11,9 @@ Corcel
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/corcelphp.svg?style=social&label=Follow)](http://twitter.com/CorcelPHP)
 
-Corcel is a class collection created to retrieve WordPress database data using a better syntax. It uses the [Eloquent ORM](https://github.com/illuminate/database) developed for the Laravel Framework, but you can use Corcel in any type of PHP project, with any framework, including Laravel.
+Corcel is a class collection created to retrieve WordPress database data using a better syntax. It uses the [Eloquent ORM](https://github.com/illuminate/database) developed for the Laravel Framework, but you can use AdrenaladsCorcel in any type of PHP project, with any framework, including Laravel.
 
-This way, you can use WordPress as the backend (admin panel), to insert posts, custom types, etc, and you can use whatever you want in the frontend, like Silex, Slim Framework, Laravel, Zend, or even pure PHP (why not?). So, just use Corcel to retrieve data from WordPress.
+This way, you can use WordPress as the backend (admin panel), to insert posts, custom types, etc, and you can use whatever you want in the frontend, like Silex, Slim Framework, Laravel, Zend, or even pure PHP (why not?). So, just use AdrenaladsCorcel to retrieve data from WordPress.
 
 # Contents
 
@@ -44,7 +44,7 @@ You need to use Composer to install Corcel into your project:
 composer require jgrossi/corcel
 ```
 
-Now you're almost ready to use Corcel classes, like `Corcel\Post`.
+Now you're almost ready to use AdrenaladsCorcel classes, like `Corcel\Post`.
 
 ## WordPress Installation
 
@@ -130,7 +130,7 @@ Optionally you can create your own `Post` model which extends `Corcel\Post`. The
 
 namespace App;
 
-use Corcel\Post as Corcel;
+use AdrenaladsCorcel\Post as Corcel;
 
 class Post extends Corcel
 {
@@ -309,7 +309,7 @@ Pages are like custom post types. You can use `Post::type('page')` or the `Corce
 
 ```php
 
-use Corcel\Page;
+use AdrenaladsCorcel\Page;
 
 // Find a page by slug
 $page = Page::slug('about')->first(); // OR
@@ -449,7 +449,7 @@ to
 ```php
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
-use Corcel\Auth\ResetsPasswords as CorcelResetsPasswords;
+use AdrenaladsCorcel\Auth\ResetsPasswords as CorcelResetsPasswords;
 
 class PasswordController extends Controller
 {

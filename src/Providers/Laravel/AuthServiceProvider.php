@@ -3,7 +3,7 @@
 namespace Adrenalads\Corcel\Providers\Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use Corcel\Providers\AuthUserProvider;
+use Adrenalads\Corcel\Providers\AuthUserProvider;
 
 /**
  * @author Mickael Burguet <www.rundef.com>

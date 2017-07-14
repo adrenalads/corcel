@@ -8,9 +8,9 @@
 
 namespace Adrenalads\Corcel;
 
-use Corcel\Traits\CreatedAtTrait;
-use Corcel\Traits\HasAcfFields;
-use Corcel\Traits\UpdatedAtTrait;
+use Adrenalad\sCorcel\Traits\CreatedAtTrait;
+use Adrenalads\Corcel\Traits\HasAcfFields;
+use Adrenalads\Corcel\Traits\UpdatedAtTrait;
 use Thunder\Shortcode\ShortcodeFacade;
 
 class Post extends Model

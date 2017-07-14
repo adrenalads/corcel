@@ -4,8 +4,8 @@ namespace Adrenalads\Corcel\Providers;
 
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Auth\Authenticatable;
-use Corcel\Password\PasswordService;
-use Corcel\User;
+use AdrenaladsCorcel\Password\PasswordService;
+use Adrenalads\Corcel\User;
 
 /**
  * @author Mickael Burguet <www.rundef.com>

@@ -1,6 +1,6 @@
 <?php
 
-use Corcel\Post;
+use AdrenaladsCorcel\Post;
 
 class Video extends Post
 {

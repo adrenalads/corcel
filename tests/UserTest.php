@@ -1,6 +1,6 @@
 <?php
 
-use Corcel\User;
+use Adrenalads\Corcel\User;
 
 class UserTest extends PHPUnit_Framework_TestCase
 {

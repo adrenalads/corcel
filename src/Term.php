@@ -2,7 +2,7 @@
 
 namespace Adrenalads\Corcel;
 
-use Corcel\Traits\HasAcfFields;
+use Adrenalads\Corcel\Traits\HasAcfFields;
 
 /**
  * Class Term.

@@ -1,6 +1,6 @@
 <?php
 
-use Corcel\Term;
+use Adrenalads\Corcel\Term;
 
 /**
  * Class TermTest
