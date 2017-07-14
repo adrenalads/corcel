@@ -27,10 +27,10 @@ class PostMeta extends Model
         if ($ref) {
             $this->primaryKey = 'meta_value';
 
-            return $this->hasOne('Corcel\Post', 'ID');
+            return $this->hasOne('Adrenalads\Corcel\Post', 'ID');
         }
 
-        return $this->belongsTo('Corcel\Post');
+        return $this->belongsTo('Adrenalads\Corcel\Post');
     }
 
     /**
@@ -74,7 +74,7 @@ class PostMeta extends Model
         }
 
         // load relationship
-        $relation = $this->hasOne('Corcel\TermTaxonomy', 'term_taxonomy_id');
+        $relation = $this->hasOne('Adrenalads\Corcel\TermTaxonomy', 'term_taxonomy_id');
 
         // do we need to filter which value to look for with meta_value
         // if (!is_null($where) && !empty($where)) {

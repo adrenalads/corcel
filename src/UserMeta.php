@@ -22,7 +22,7 @@ class UserMeta extends Model
      */
     public function user()
     {
-        return $this->belongsTo('Corcel\User');
+        return $this->belongsTo('Adrenalads\Corcel\User');
     }
 
     /**

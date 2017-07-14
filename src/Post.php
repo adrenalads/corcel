@@ -85,11 +85,11 @@ class Post extends Model
     /**
      * Meta data relationship.
      *
-     * @return Corcel\PostMetaCollection
+     * @return Adrenalads\Corcel\PostMetaCollection
      */
     public function meta()
     {
-        return $this->hasMany('Corcel\PostMeta', 'post_id');
+        return $this->hasMany('Adrenalads\Corcel\PostMeta', 'post_id');
     }
 
     public function fields()
@@ -102,7 +102,7 @@ class Post extends Model
      */
     public function thumbnail()
     {
-        return $this->hasOne('Corcel\ThumbnailMeta', 'post_id')
+        return $this->hasOne('Adrenalads\Corcel\ThumbnailMeta', 'post_id')
             ->where('meta_key', '_thumbnail_id');
     }
 
@@ -113,7 +113,7 @@ class Post extends Model
      */
     public function taxonomies()
     {
-        return $this->belongsToMany('Corcel\TermTaxonomy', 'term_relationships', 'object_id', 'term_taxonomy_id');
+        return $this->belongsToMany('Adrenalads\Corcel\TermTaxonomy', 'term_relationships', 'object_id', 'term_taxonomy_id');
     }
 
     /**
@@ -123,7 +123,7 @@ class Post extends Model
      */
     public function comments()
     {
-        return $this->hasMany('Corcel\Comment', 'comment_post_ID');
+        return $this->hasMany('Adrenalads\Corcel\Comment', 'comment_post_ID');
     }
 
     /**
@@ -133,17 +133,17 @@ class Post extends Model
      */
     public function author()
     {
-        return $this->belongsTo('Corcel\User', 'post_author');
+        return $this->belongsTo('Adrenalads\Corcel\User', 'post_author');
     }
 
     /**
      * Parent post.
      *
-     * @return Corcel\Post
+     * @return Adrenalads\Corcel\Post
      */
     public function parent()
     {
-        return $this->belongsTo('Corcel\Post', 'post_parent');
+        return $this->belongsTo('Adrenalads\Corcel\Post', 'post_parent');
     }
 
     /**
@@ -153,7 +153,7 @@ class Post extends Model
      */
     public function attachment()
     {
-        return $this->hasMany('Corcel\Post', 'post_parent')->where('post_type', 'attachment');
+        return $this->hasMany('Adrenalads\Corcel\Post', 'post_parent')->where('post_type', 'attachment');
     }
 
     /**
@@ -163,7 +163,7 @@ class Post extends Model
      */
     public function revision()
     {
-        return $this->hasMany('Corcel\Post', 'post_parent')->where('post_type', 'revision');
+        return $this->hasMany('Adrenalads\Corcel\Post', 'post_parent')->where('post_type', 'revision');
     }
 
     /**
@@ -171,7 +171,7 @@ class Post extends Model
      *
      * @param bool $excludeDeleted
      *
-     * @return Corcel\PostBuilder
+     * @return Adrenalads\Corcel\PostBuilder
      */
     public function newQuery($excludeDeleted = true)
     {

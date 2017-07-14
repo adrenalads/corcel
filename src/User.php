@@ -51,7 +51,7 @@ class User extends Model implements Authenticatable, CanResetPassword
      */
     public function meta()
     {
-        return $this->hasMany('Corcel\UserMeta', 'user_id');
+        return $this->hasMany('Adrenalads\Corcel\UserMeta', 'user_id');
     }
 
     public function fields()
@@ -66,7 +66,7 @@ class User extends Model implements Authenticatable, CanResetPassword
      */
     public function posts()
     {
-        return $this->hasMany('Corcel\Post', 'post_author');
+        return $this->hasMany('Adrenalads\Corcel\Post', 'post_author');
     }
 
     /**
@@ -76,7 +76,7 @@ class User extends Model implements Authenticatable, CanResetPassword
      */
     public function comments()
     {
-        return $this->hasMany('Corcel\Comment', 'user_id');
+        return $this->hasMany('Adrenalads\Corcel\Comment', 'user_id');
     }
 
     /**
