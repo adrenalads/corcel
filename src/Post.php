@@ -6,7 +6,7 @@
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 
-namespace Corcel;
+namespace Adrenalads\Corcel;
 
 use Corcel\Traits\CreatedAtTrait;
 use Corcel\Traits\HasAcfFields;

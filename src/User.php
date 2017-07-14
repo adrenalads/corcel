@@ -7,7 +7,7 @@
  * @author Mickael Burguet <www.rundef.com>
  */
 
-namespace Corcel;
+namespace Adrenalads\Corcel;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\CanResetPassword;

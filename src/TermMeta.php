@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel;
+namespace Adrenalads\Corcel;
 
 class TermMeta extends PostMeta
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel\Traits;
+namespace Adrenalads\Corcel\Traits;
 
 /**
  * CreatedAt trait.

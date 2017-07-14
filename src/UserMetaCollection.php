@@ -6,7 +6,7 @@
  * @author Mickael Burguet <www.rundef.com>
  */
 
-namespace Corcel;
+namespace Adrenalads\Corcel;
 
 use Illuminate\Database\Eloquent\Collection;
 

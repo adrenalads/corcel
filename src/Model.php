@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel;
+namespace Adrenalads\Corcel;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model as Eloquent;

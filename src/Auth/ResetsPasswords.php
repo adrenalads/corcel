@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel\Auth;
+namespace Adrenalads\Corcel\Auth;
 
 use Corcel\Password\PasswordService;
 use Auth;

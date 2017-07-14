@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel\Providers\Laravel;
+namespace Adrenalads\Corcel\Providers\Laravel;
 
 use Illuminate\Support\ServiceProvider;
 use Corcel\Providers\AuthUserProvider;

@@ -7,7 +7,7 @@
  * @author  Yoram de Langen <yoramdelangen@gmail.com>
  */
 
-namespace Corcel;
+namespace Adrenalads\Corcel;
 
 use Illuminate\Database\Eloquent\Builder;
 

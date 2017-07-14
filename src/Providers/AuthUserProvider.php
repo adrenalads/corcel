@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel\Providers;
+namespace Adrenalads\Corcel\Providers;
 
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Auth\Authenticatable;

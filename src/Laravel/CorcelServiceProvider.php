@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel\Laravel;
+namespace Adrenalads\Corcel\Laravel;
 
 use Illuminate\Support\ServiceProvider;
 

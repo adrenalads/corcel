@@ -8,7 +8,7 @@
  * @author Mike Forcer <michael@goodbytes.co.uk>
  */
 
-namespace Corcel;
+namespace Adrenalads\Corcel;
 
 class WordPressPostFormatter
 {

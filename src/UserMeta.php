@@ -6,7 +6,7 @@
  * @author Mickael Burguet <www.rundef.com>
  */
 
-namespace Corcel;
+namespace Adrenalads\Corcel;
 
 class UserMeta extends Model
 {

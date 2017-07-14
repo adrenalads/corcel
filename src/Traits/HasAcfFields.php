@@ -1,7 +1,7 @@
 <?php
 namespace Corcel\Traits;
 
-use Corcel\Acf\AdvancedCustomFields;
+use Adrenalads\Corcel\Acf\AdvancedCustomFields;
 
 trait HasAcfFields
 {
