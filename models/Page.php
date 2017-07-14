@@ -5,7 +5,7 @@
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class Page extends Corcel\Post
+class Page extends Adrenalads\Corcel\Post
 {
     /**
      * Used to set the post's type.

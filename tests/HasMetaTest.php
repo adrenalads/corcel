@@ -1,6 +1,6 @@
 <?php
 
-use AdrenaladsCorcel\Post;
+use Adrenalads\Corcel\Post;
 
 class HasMetaTest extends PHPUnit_Framework_TestCase
 {

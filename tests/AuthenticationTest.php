@@ -1,8 +1,8 @@
 <?php
 
 use Adrenalads\Corcel\User;
-use AdrenaladsCorcel\Providers\AuthUserProvider;
-use AdrenaladsCorcel\Password\PasswordService;
+use Adrenalads\Corcel\Providers\AuthUserProvider;
+use Adrenalads\Corcel\Password\PasswordService;
 
 class AuthenticationTest extends PHPUnit_Framework_TestCase
 {

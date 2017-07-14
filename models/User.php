@@ -5,6 +5,6 @@
  *
  * @author Mickael Burguet <www.rundef.com>
  */
-class User extends Corcel\User
+class User extends Adrenalads\Corcel\User
 {
 }

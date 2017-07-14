@@ -5,6 +5,6 @@
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class Post extends Corcel\Post
+class Post extends Adrenalads\Corcel\Post
 {
 }

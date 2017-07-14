@@ -1,6 +1,6 @@
 <?php require __DIR__ . '/../../vendor/autoload.php';
 
-$capsule = \Corcel\Database::connect($params = [
+$capsule = Adrenalads\Corcel\Database::connect($params = [
     'database' => 'corcel',
     'username' => 'root',
     'password' => '',
