@@ -1,9 +1,10 @@
 {
-    "name": "jgrossi/corcel",
-    "replace": { "juniorgrossi/corcel": "self.version" },
+    "name": "adrenalads/corcel",
     "description": "Use WordPress backend with any PHP framework",
     "homepage": "http://github.com/corcel/corcel",
     "license": "MIT",
+    "type": "library",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Junior Grossi",
@@ -24,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Corcel\\": "src/"
+            "Adrenalads\\Corcel\\": "src/"
         },
         "classmap": [
             "models"
