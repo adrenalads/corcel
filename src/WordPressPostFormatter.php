@@ -177,6 +177,9 @@ class WordPressPostFormatter
             $pee = str_replace(array(' <!-- wpnl --> ', '<!-- wpnl -->'), "\n", $pee);
         }
 
+
+        $pee = $this->replaceCaptions($pee);
+
         return $pee;
     }
 
@@ -287,4 +290,15 @@ class WordPressPostFormatter
 
         return $regex;
     }
+
+  private function replaceCaptions($content) {
+    $frontCaptionReplace = preg_replace('/[\[](caption)\s(id=\"attachment_[0-9]+\")\s(align=\"[a-z]*\")\s(width="[0-9]+\")[\]]/m', '', $content);
+    $middleCaptionReplace = preg_replace('/(\/\>)/m', "/><label class=\"wp-caption\">", $frontCaptionReplace);
+    $endCaptionReplacePart = preg_replace('/([\[]\/caption[\]])/', '</label>', $middleCaptionReplace);
+
+    $finalCaption = $endCaptionReplacePart;
+
+    return $finalCaption;
+
+  }
 }
