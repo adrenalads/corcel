@@ -17,7 +17,7 @@ class PostBuilder extends Builder
      *
      * @param string $postStatus
      *
-     * @return \Corcel\PostBuilder
+     * @return \Adrenalads\Corcel\PostBuilder
      */
     public function status($postStatus)
     {
@@ -27,7 +27,7 @@ class PostBuilder extends Builder
     /**
      * Get only published posts.
      *
-     * @return \Corcel\PostBuilder
+     * @return \Adrenalads\Corcel\PostBuilder
      */
     public function published()
     {
@@ -39,7 +39,7 @@ class PostBuilder extends Builder
      *
      * @param string $type
      *
-     * @return \Corcel\PostBuilder
+     * @return \Adrenalads\Corcel\PostBuilder
      */
     public function type($type)
     {
@@ -51,7 +51,7 @@ class PostBuilder extends Builder
      *
      * @param array $type
      *
-     * @return \Corcel\PostBuilder
+     * @return \Adrenalads\Corcel\PostBuilder
      */
     public function typeIn(array $type)
     {
@@ -78,7 +78,7 @@ class PostBuilder extends Builder
      *
      * @param string slug
      *
-     * @return \Corcel\PostBuilder
+     * @return \Adrenalads\Corcel\PostBuilder
      */
     public function slug($slug)
     {

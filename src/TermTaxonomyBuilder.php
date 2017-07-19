@@ -18,7 +18,7 @@ class TermTaxonomyBuilder extends Builder
     /**
      * Add posts to the relationship builder.
      *
-     * @return Corcel\TermTaxonomyBuilder
+     * @return \Adrenalads\Corcel\TermTaxonomyBuilder
      */
     public function posts()
     {
@@ -28,7 +28,7 @@ class TermTaxonomyBuilder extends Builder
     /**
      * Set taxonomy type to category.
      *
-     * @return Corcel\TermTaxonomyBuilder
+     * @return \Adrenalads\Corcel\TermTaxonomyBuilder
      */
     public function category()
     {
@@ -38,7 +38,7 @@ class TermTaxonomyBuilder extends Builder
     /**
      * Set taxonomy type to nav_menu.
      *
-     * @return Corcel\TermTaxonomyBuilder
+     * @return \Adrenalads\Corcel\TermTaxonomyBuilder
      */
     public function menu()
     {
@@ -50,7 +50,7 @@ class TermTaxonomyBuilder extends Builder
      *
      * @param string slug
      *
-     * @return \Corcel\TermTaxonomyBuilder
+     * @return \Adrenalads\Corcel\TermTaxonomyBuilder
      */
     public function slug($slug = null)
     {

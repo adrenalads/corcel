@@ -15,7 +15,7 @@ class CommentBuilder extends Builder
     /**
      * Where clause for only approved comments.
      *
-     * @return \Corcel\CommentBuilder
+     * @return \Adrenalads\Corcel\CommentBuilder
      */
     public function approved()
     {

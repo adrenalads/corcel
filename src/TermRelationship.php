@@ -15,11 +15,11 @@ class TermRelationship extends Model
 
     public function post()
     {
-        return $this->belongsTo('Corcel\Post', 'object_id');
+        return $this->belongsTo('Adrenalads\Corcel\Post', 'object_id');
     }
 
     public function taxonomy()
     {
-        return $this->belongsTo('Corcel\TermTaxonomy', 'term_taxonomy_id');
+        return $this->belongsTo('Adrenalads\Corcel\TermTaxonomy', 'term_taxonomy_id');
     }
 }

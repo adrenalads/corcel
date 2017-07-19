@@ -139,7 +139,7 @@ class Post extends Model
     /**
      * Parent post.
      *
-     * @return Adrenalads\Corcel\Post
+     * @return \Adrenalads\Corcel\Post
      */
     public function parent()
     {
@@ -171,7 +171,7 @@ class Post extends Model
      *
      * @param bool $excludeDeleted
      *
-     * @return Adrenalads\Corcel\PostBuilder
+     * @return \Adrenalads\Corcel\PostBuilder
      */
     public function newQuery($excludeDeleted = true)
     {

@@ -13,7 +13,7 @@ class ThumbnailMeta extends PostMeta
 
     public function attachment()
     {
-        return $this->belongsTo('Corcel\Attachment', 'meta_value');
+        return $this->belongsTo('Adrrenalads\Corcel\Attachment', 'meta_value');
     }
 
     public function __toString()

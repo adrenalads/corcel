@@ -13,11 +13,11 @@ class TermTaxonomy extends Model
     /**
      * Meta data relationship.
      *
-     * @return Corcel\PostMetaCollection
+     * @return Adrenalads\Corcel\PostMetaCollection
      */
     public function meta()
     {
-        return $this->hasMany('Corcel\TermMeta', 'term_id');
+        return $this->hasMany('Adrenalads\Corcel\TermMeta', 'term_id');
     }
     
     /**
@@ -27,7 +27,7 @@ class TermTaxonomy extends Model
      */
     public function term()
     {
-        return $this->belongsTo('Corcel\Term', 'term_id');
+        return $this->belongsTo('Adrenalads\Corcel\Term', 'term_id');
     }
 
     /**
@@ -37,7 +37,7 @@ class TermTaxonomy extends Model
      */
     public function parentTerm()
     {
-        return $this->belongsTo('Corcel\TermTaxonomy', 'parent');
+        return $this->belongsTo('Adrenalads\Corcel\TermTaxonomy', 'parent');
     }
 
     /**
@@ -47,7 +47,7 @@ class TermTaxonomy extends Model
      */
     public function posts()
     {
-        return $this->belongsToMany('Corcel\Post', 'term_relationships', 'term_taxonomy_id', 'object_id');
+        return $this->belongsToMany('Adrenalads\Corcel\Post', 'term_relationships', 'term_taxonomy_id', 'object_id');
     }
 
     /**
@@ -70,7 +70,7 @@ class TermTaxonomy extends Model
      *
      * @param bool $excludeDeleted
      *
-     * @return Corcel\TermTaxonomyBuilder
+     * @return Adrenalads\Corcel\TermTaxonomyBuilder
      */
     public function newQuery($excludeDeleted = true)
     {

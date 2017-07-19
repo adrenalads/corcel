@@ -47,7 +47,7 @@ class User extends Model implements Authenticatable, CanResetPassword
     /**
      * Meta data relationship.
      *
-     * @return Corcel\UserMetaCollection
+     * @return \Adrenalads\Corcel\UserMetaCollection
      */
     public function meta()
     {
@@ -62,7 +62,7 @@ class User extends Model implements Authenticatable, CanResetPassword
     /**
      * Posts relationship.
      *
-     * @return Corcel\PostMetaCollection
+     * @return \Adrenalads\Corcel\PostMetaCollection
      */
     public function posts()
     {
@@ -84,7 +84,7 @@ class User extends Model implements Authenticatable, CanResetPassword
      *
      * @param bool $excludeDeleted
      *
-     * @return Corcel\UserBuilder
+     * @return \Adrenalads\Corcel\UserBuilder
      */
     public function newQuery()
     {

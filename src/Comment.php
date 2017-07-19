@@ -29,7 +29,7 @@ class Comment extends Model
      */
     public function post()
     {
-        return $this->belongsTo('Corcel\Post', 'comment_post_ID');
+        return $this->belongsTo('Adrenalads\Corcel\Post', 'comment_post_ID');
     }
 
     /**
@@ -39,7 +39,7 @@ class Comment extends Model
      */
     public function original()
     {
-        return $this->belongsTo('Corcel\Comment', 'comment_parent');
+        return $this->belongsTo('Adrenalads\Corcel\Comment', 'comment_parent');
     }
 
     /**
@@ -49,7 +49,7 @@ class Comment extends Model
      */
     public function replies()
     {
-        return $this->hasMany('Corcel\Comment', 'comment_parent');
+        return $this->hasMany('Adrenalads\Corcel\Comment', 'comment_parent');
     }
 
     /**
